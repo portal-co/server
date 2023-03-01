@@ -23,7 +23,7 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-	d, err := http.Get("https://ipfs.io/" + SpaceFieldsJoin(string(a)))
+	d, err := http.Get("https://ipfs.io/ipfs/" + SpaceFieldsJoin(string(a)))
 	if err != nil {
 		panic(err)
 	}
