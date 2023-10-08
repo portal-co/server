@@ -6,5 +6,7 @@ COPY . /src
 RUN go build -o /boot github.com/portal-co/server/void
 
 EXPOSE  8000
+ARG ENCRYPT
+ENV ENCRYPT=${ENCRYPT}
 
 CMD [ "/boot" ]
