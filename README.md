@@ -1,13 +1,14 @@
 # server
 
 ## Description
-Project server
+A Go-based server project, possibly for "Realite" or "Vocal". Includes Dockerfile.
 
 ## Goals
-- [ ] Add project goals
+- [ ] Host application services
+- [ ] Manage websocket connections
 
 ## Progress
-- [ ] Initial setup
+- [ ] Go module setup
 
 ---
 *AI assisted*
